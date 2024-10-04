@@ -1,0 +1,92 @@
+
+body {
+  background-image: url("img/hero_img.jpeg");  /* inserted the hero image */
+  background-size: cover; /* covers the whole viewport */
+  margin: 0;
+}
+
+header {
+  background-color: #00c25e;  /* changed color to green to match the eco-friendly theme */
+  height: 100px;
+}
+
+img {
+  background-color: #00c25e;
+  height: 60px;
+  position: absolute;
+  top: 20px;
+  left: 20px; 
+}
+ 
+.nav ul {
+  background-color: #00c25e;
+  list-style: none;
+  margin: 0;
+  padding-top: 20px;
+  text-align: center;
+  font-size: 20px;  /* enlarged the font for a better view */
+}
+
+.nav li {
+  display: inline-block;
+  padding: 20px;
+  margin: 0 20px;
+}
+ 
+.nav a {
+  color: #ffffff;
+}
+
+section {
+  background-color: #00c25e;  
+  width: 860px;
+  margin: 50px auto 0 auto;
+  border-radius: 10px 50px;  
+  opacity: 0.9;  /* made the hero image partly transparent to show the hero image better */
+}
+
+.section-box {
+  padding-top: 40px;
+  display: inline-block;
+  width: 400px;
+  height: 300px;
+  vertical-align: top;
+  box-sizing: border-box;
+}
+
+#quote-offer-container {
+  margin-right: 20px; 
+  margin-left: 20px;
+  text-align: center;
+  font-size: 20px;  /* enlarged text */
+}
+
+h2 {
+  font-size: 30px;
+}
+
+#quote-form-container {
+  background-color: #f4c38a;
+  padding: 20px;
+  margin-top: 40px;
+  height: 200px;
+  border-radius: 15px;
+}
+
+#quote-form {  /* moved the text to the center */
+  text-align: center;
+}
+
+.form-field {
+  margin-bottom: 15px;
+}
+
+
+button {
+  border: none;
+  background-color: forestgreen; /* emphasized the submit button by making it larger and darker in color */
+  color: white;
+  height: 40px;
+  width:  80px;
+  font-size: 17px;
+}
